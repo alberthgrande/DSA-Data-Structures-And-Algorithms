@@ -1,3 +1,2 @@
-# 50-Days-of-DSA-JavaScript-Data-Structures-Algorithms
+# (DSA) Data Structures and Algorithms
 
-### Day 1 Goals
