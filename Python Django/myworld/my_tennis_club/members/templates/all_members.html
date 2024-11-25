@@ -1,0 +1,19 @@
+{% extends "master.html" %} 
+{% block title %} My Tennis Club - List of all
+members {% endblock %} {% block content %}
+
+<div class="position-absolute top-50 start-50 translate-middle">
+  <div class="card" style="width: 500px">
+    <h1 class="card-header text-center p-5">Members</h1>
+    <div class="card-body">
+      <ul class="list-group">
+        {% for x in mymembers %}
+        <li class="list-group-item m-2">
+          <a href="details/{{ x.id }}">{{ x.firstname }} {{ x.lastname }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
